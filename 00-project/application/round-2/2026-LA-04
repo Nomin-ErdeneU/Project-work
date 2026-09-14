@@ -1,0 +1,30 @@
+---
+name: Nomin-Erdene Ugiidalai
+neptun: E8671V
+id: 2026-LA-04
+---
+# [Smart Parking Garage Management System]
+
+## My interpretation of the brief
+This project focuses on designing and implementing a clean relational database to store domain-specific data efficiently. The core objective is to handle raw data ingestion, build structured tables with proper primary and foreign keys, and write optimized SQL queries and stored procedures to retrieve meaningful insights.
+
+## Why I am a good fit for this project
+I want to strengthen my practical skills in database architecture and SQL query development. Working on a dedicated data project gives me a great opportunity to apply normalizing rules, work with real-world datasets, and practice writing clean backend database logic.
+
+## Relevant experience and background
+- **Databases & SQL:** Solid grasp of relational database design, third normal form (3NF), writing SQL joins, and creating basic stored procedures.
+- **Data Handling:** Experience working with structured datasets, parsing JSON payloads, and connecting backends to relational databases.
+- **Development Tools:** Comfortable using Git, SQL database tools, and Visual Studio for software management.
+
+## Proposed approach
+I will start by analyzing the requirements to design a normalized database schema with clear table relationships and constraints. Next, I will create scripts to load and seed test data, then write procedures and views for common data operations. Finally, I will test query performance, add indexing where needed, and connect a minimal user interface to showcase the data flows.
+
+## Initial plan
+1. Define the data model, entity relationships, and table constraints.
+2. Create database creation scripts and seed sample test data.
+3. Build stored procedures, functions, and analytical SQL queries.
+4. Build a lightweight interface to display application data and run queries.
+5. Test query execution times, optimize database indexes, and complete the final documentation.
+
+## Additional information
+I will keep my project tasks updated using Trello and commit changes regularly to my GitHub repository.
