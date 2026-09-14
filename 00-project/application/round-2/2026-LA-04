@@ -3,7 +3,7 @@ name: Nomin-Erdene Ugiidalai
 neptun: E8671V
 id: 2026-LA-04
 ---
-# [Smart Parking Garage Management System]
+# Smart Parking Garage Management System
 
 ## My interpretation of the brief
 This project focuses on designing and implementing a clean relational database to store domain-specific data efficiently. The core objective is to handle raw data ingestion, build structured tables with proper primary and foreign keys, and write optimized SQL queries and stored procedures to retrieve meaningful insights.
