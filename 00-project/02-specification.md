@@ -73,7 +73,7 @@ The application has three main screens: a start screen where the learner begins 
 ## 6. Non-functional requirements
 | Requirement | How it will be verified |
 | --- | --- |
-|| Generating a practice sequence takes under 1 second with at least 50,000 stored answers. | Execution time measured on generated test data. | 
+| Generating a practice sequence takes under 1 second with at least 50,000 stored answers. | Execution time measured on generated test data. | 
 | At least five complex queries are optimized. | Results before and after indexing are compared using execution plans and `SET STATISTICS IO/TIME`. |
 | Test data generation is reproducible. | The same script produces the same dataset on a new database. |
 | The system can be installed from the repository. | Setup steps are documented and tested on a clean database. |
@@ -83,7 +83,7 @@ The application has three main screens: a start screen where the learner begins 
 | --- | --- | --- | --- |
 | How should the learner be identified without a full login system? | Affects the data model and interface | Student | Start with simple user selection; add accounts only if required. |
 | The priority formula may select poor items. | Affects learning quality | Student | Compare two strategies on test data and adjust the weights. |
-| Resolution: measure against the 1-second target, add indexes, and optimize queries. | Affects usability | Student | Measure performance, add indexes, and optimize queries. |
+| Sequence generation may be slow with large histories. | Affects usability | Student | Measure against the 1-second target, add indexes, and optimize queries. |
 
 ## 8. Initial technical specification proposal
 ### Proposed solution
