@@ -10,8 +10,6 @@ Neptun: E8671V
 Supervisor: Anett LENART  
 Project ID: 2026-LA-05  
 
----
-
 
 ## Problem
 
