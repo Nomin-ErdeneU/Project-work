@@ -38,7 +38,7 @@ Priority: **Must** = required for the final product; **Should** = important; **C
 | --- | --- |
 | Selection logic runs inside the database | Keeps core business logic centralized in procedural database components (PL/SQL or T-SQL). |
 | Adaptive review spacing | Correct answers increase the review interval so well-known words appear less often. |
-| Quick re-queue for mistakes | Incorrect answers lower the priority score immediately so weak words are practiced again sooner. |
+| Quick re-queue for mistakes | Incorrect answers raise the priority score immediately, so weak words are practiced again sooner. Correct answers lower the priority and increase the review interval. |
 
 ## 5. Non-functional requirements
 | Requirement | How it will be verified |
