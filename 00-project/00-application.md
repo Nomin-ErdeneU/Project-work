@@ -9,7 +9,7 @@ id: 2026-LA-05
 This project is about building a language learning app that tracks individual student progress and adjusts practice sets automatically. The main focus is writing database functions and procedures that look at past mistakes and time intervals to decide which words or exercises a user should practice next.
 
 ## Why I am a good fit for this project
-I am  learning a foreign language while studying engineering, so I know how helpful personalized practice and spaced repetition are. Building the selection logic directly inside the database is a great opportunity for me to practice back-end logic and database procedural programming.
+I am learning a foreign language while studying engineering, so I know how helpful personalized practice and spaced repetition are. Building the selection logic directly inside the database is a great opportunity for me to practice back-end logic and database procedural programming.
 
 ## Relevant experience and background
 - **Databases & SQL:** I have a good understanding of relational database design, table relationships, and writing queries from my coursework.
