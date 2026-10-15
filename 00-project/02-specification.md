@@ -69,6 +69,9 @@ Priority: **Must** = required for the final product; **Should** = important; **C
 
 ## 5. User interface and workflow
 The application has three main screens: a start screen where the learner begins a session, a practice screen that shows one exercise at a time with feedback, and a progress screen with accuracy statistics. The interface only displays exercises and sends answers. It does not decide which items are practiced next.
+
+
+
 ### Wireframes
 **Start screen**
 ```text
