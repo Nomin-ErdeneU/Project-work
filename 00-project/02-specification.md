@@ -51,7 +51,7 @@ project_outline: "[[00-project/01-project-outline]]"
 | Two selection strategies are available. | Given a learner, when a strategy is chosen, then the system can select items using a rule-based method or a weighted-priority method. | Must |
 | The database uses at least 10 related tables in 3NF. | Given the final schema, when it is reviewed, then it has at least 10 tables with keys, referential integrity, and uniqueness constraints. | Must |
 | The learner can view progress. | Given practice history, when the learner opens the progress page, then accuracy over time and results by topic are shown. | Must |
-| The system works with large data. | Given tens of thousands of stored answers, when a session is requested, then the sequence is generated within the target time. | Must |
+| The system works with large data. | Given at least 50,000 stored answers, when a session is requested, then the practice sequence is generated in under 1 second.  | Must |
 | The administrator can manage learning content. | Given valid data, when the administrator saves it, then the word and its details are stored. | Should |
 | The learner can filter practice by topic. | Given a selected topic, when a session starts, then only items from that topic are selected. | Could |
 
@@ -73,7 +73,7 @@ The application has three main screens: a start screen where the learner begins 
 ## 6. Non-functional requirements
 | Requirement | How it will be verified |
 | --- | --- |
-| Generating a practice sequence is fast with tens of thousands of answers (target to be confirmed with the supervisor). | Execution time measured on generated test data. |
+|| Generating a practice sequence takes under 1 second with at least 50,000 stored answers. | Execution time measured on generated test data. | 
 | At least five complex queries are optimized. | Results before and after indexing are compared using execution plans and `SET STATISTICS IO/TIME`. |
 | Test data generation is reproducible. | The same script produces the same dataset on a new database. |
 | The system can be installed from the repository. | Setup steps are documented and tested on a clean database. |
@@ -83,7 +83,7 @@ The application has three main screens: a start screen where the learner begins 
 | --- | --- | --- | --- |
 | How should the learner be identified without a full login system? | Affects the data model and interface | Student | Start with simple user selection; add accounts only if required. |
 | The priority formula may select poor items. | Affects learning quality | Student | Compare two strategies on test data and adjust the weights. |
-| Sequence generation may be slow with large histories. | Affects usability | Student | Measure performance, add indexes, and optimize queries. |
+| Resolution: measure against the 1-second target, add indexes, and optimize queries. | Affects usability | Student | Measure performance, add indexes, and optimize queries. |
 
 ## 8. Initial technical specification proposal
 ### Proposed solution
