@@ -8,19 +8,23 @@ trello: https://trello.com/b/placeholder
 
 # Language Learning Assistant with Individual Progress Tracking
 
-## What this project is about
-This project is a simple language learning helper designed to make studying more personal. Instead of showing every word or flashcard with the same frequency, the system pays attention to which words give you trouble and makes sure you practice those more often. 
+This project is a database-centered language learning assistant for [English / German]. The system stores vocabulary, users' answers, and practice history. Based on this history, a database-side stored procedure calculates a priority for each word and selects the words the learner should practice next. A simple [web / mobile] interface lets users start a practice session, submit answers, and view their progress.
 
-## Main goals
-- Build a database that safely stores words, user answers, and practice history.
-- Use simple database rules to automatically pick which words you should study next based on your past mistakes.
-- Create a clean and easy website or interface where a student can log in, practice, and watch their progress grow.
+## Objectives
+- **Primary objective:** Deliver a working learning system where the database decides which words to practice next, based on previous results.
+- **Target users / stakeholders:** Language learners; the course supervisor.
+- **Measurable success criteria:** A user can start a session, submit answers, and see progress. The next session changes based on the previous answers. The system works with tens of thousands of stored answers.
+- **Constraints:** [Microsoft SQL Server with T-SQL]; selection logic only in the database; at least 10 related tables; no credentials in the repository.
 
-## What is included (Scope)
-- A well-organized database to keep track of users, vocabulary, and test results.
-- Automated logic inside the database that selects your next study words.
-- A simple app screen where users can answer practice questions.
+## Scope
+### In scope
+- Relational database for users, words, meanings, topics, difficulty, sessions, exercises, answers, and learning states.
+- Stored procedures with at least two selection strategies.
+- A simple interface for practice and progress.
+- Test data, SQL queries, and performance measurements.
 
-## What is NOT included
-- No complicated artificial intelligence or machine learning models.
-- No live voice chat, video streaming, or heavy games.
+### Out of scope
+- Machine learning or AI models.
+- Audio or pronunciation exercises.
+- Reminders and notifications.
+- A complex e-learning platform.
