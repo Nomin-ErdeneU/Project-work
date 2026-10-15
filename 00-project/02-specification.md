@@ -1,5 +1,5 @@
 ---
-project_outline: "[[00-project/02-specification]]"
+project_outline: "[[00-project/01-project-outline]]"
 ---
 # Language Learning Assistant with Individual Progress Tracking
 
