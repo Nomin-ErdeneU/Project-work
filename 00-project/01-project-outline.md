@@ -8,13 +8,13 @@ trello: https://trello.com/b/placeholder
 
 # Language Learning Assistant with Individual Progress Tracking
 
-This project is a database-centered language learning assistant for [English / German]. The system stores vocabulary, users' answers, and practice history. Based on this history, a database-side stored procedure calculates a priority for each word and selects the words the learner should practice next. A simple [web / mobile] interface lets users start a practice session, submit answers, and view their progress.
+This project is a database-centered language learning assistant for English. The system stores vocabulary, users' answers, and practice history. Based on this history, a database-side stored procedure calculates a priority for each word and selects the words the learner should practice next. A simple web interface lets users start a practice session, submit answers, and view their progress.
 
 ## Objectives
 - **Primary objective:** Deliver a working learning system where the database decides which words to practice next, based on previous results.
-- **Target users / stakeholders:** Language learners; the course supervisor.
+- **Target users / stakeholders:** Language learners; administrators who maintain the learning content; the course supervisor.
 - **Measurable success criteria:** A user can start a session, submit answers, and see progress. The next session changes based on the previous answers. The system works with tens of thousands of stored answers.
-- **Constraints:** [Microsoft SQL Server with T-SQL]; selection logic only in the database; at least 10 related tables; no credentials in the repository.
+- **Constraints:** Microsoft SQL Server with T-SQL; selection logic only in the database; at least 10 related tables; no credentials in the repository.
 
 ## Scope
 ### In scope
