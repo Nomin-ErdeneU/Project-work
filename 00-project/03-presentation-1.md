@@ -10,6 +10,12 @@ Neptun: E8671V
 Supervisor: Anett LENART  
 Project ID: 2026-LA-05  
 
+---
+
+<!-- 2xl -->
+[prmd.atom-forge.eu/docs](https://prmd.atom-forge.eu/docs)
+
+---
 
 ## Problem
 
