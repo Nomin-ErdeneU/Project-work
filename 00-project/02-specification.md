@@ -69,6 +69,37 @@ Priority: **Must** = required for the final product; **Should** = important; **C
 
 ## 5. User interface and workflow
 The application has three main screens: a start screen where the learner begins a session, a practice screen that shows one exercise at a time with feedback, and a progress screen with accuracy statistics. The interface only displays exercises and sends answers. It does not decide which items are practiced next.
+### Wireframes
+**Start screen**
+```text
++-------------------------------+
+| Language Learning Assistant   |
+| Learner: [ Anna        v ]    |
+| Strategy: [ Weighted   v ]    |
+|        [ Start practice ]     |
+|        [ View progress  ]     |
++-------------------------------+
+```
+
+**Practice screen**
+```text
++-------------------------------+
+| Question 3 / 10               |
+| What does "although" mean?    |
+| ( ) A   ( ) B   ( ) C         |
+|        [ Submit answer ]      |
+| Feedback: Correct!            |
++-------------------------------+
+```
+
+**Progress screen**
+```text
++-------------------------------+
+| Accuracy over time  [ chart ] |
+| By topic: Food 80% Travel 55% |
+| Hardest words: although, ...  |
++-------------------------------+
+```
 
 ## 6. Non-functional requirements
 | Requirement | How it will be verified |
