@@ -1,5 +1,5 @@
 ---
-project_outline: "[[00-project/03-presentation-1 ]]"
+project_outline: "[[00-project/01-project-outline]]"
 ---
 
 <!-- 5xl -->
