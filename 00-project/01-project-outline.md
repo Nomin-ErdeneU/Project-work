@@ -3,7 +3,7 @@ name: Nomin-Erdene Ugiidalai
 neptun: E8671V
 id: 2026-LA-05
 github: https://github.com/Nomin-ErdeneU/Project-work
-trello: https://trello.com/b/placeholder
+trello: https://trello.com/b/w3quIwGD/my-trello-board
 ---
 
 # Language Learning Assistant with Individual Progress Tracking
