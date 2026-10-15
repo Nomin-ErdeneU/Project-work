@@ -1,4 +1,3 @@
-
 ---
 project_outline: "[[00-project/01-project-outline]]"
 ---
@@ -8,50 +7,45 @@ project_outline: "[[00-project/01-project-outline]]"
 
 Author: Nomin-Erdene Ugiidalai  
 Neptun: E8671V  
-Supervisor:  Anett LENART 
+Supervisor: Anett LENART  
 Project ID: 2026-LA-05  
 
 ---
 
 <!-- 2xl -->
-## The Problem
-
-- When studying languages, learners usually review all words equally, which is inefficient.
-- Traditional apps lack smart, personalized repetition based on individual mistakes and study gaps.
-- Client-side selection logic can be unreliable and doesn't utilize centralized database performance.
+[prmd.atom-forge.eu/docs](https://prmd.atom-forge.eu/docs)
 
 ---
 
-<!-- 2xl -->
-## Target Users
+## Problem
 
-- **Language Learners:** Students studying foreign languages who need a smart, personalized vocabulary practice queue.
-- **Course Administrators:** Instructors who maintain learning content, vocabulary items, and difficulty levels.
+- Learners repeat all words equally
+- Easy words waste time
+- Hard words are forgotten
+- The system should choose words based on mistakes
 
----
+## Target users
 
-<!-- 2xl -->
-## Planned Scope
+- **Learner:** wants a personal practice list
+- **Administrator:** manages words, topics, and difficulty
 
-- **Database Core:** At least 10 normalized tables (3NF) modeling users, items, practice sessions, and attempts.
-- **Procedural Logic:** Database stored procedures (PL/SQL or T-SQL) handling rule-based and priority selection algorithms.
-- **Data & Performance:** Test data generation and query execution optimization using database plans.
-- **Application Interface:** A clean web interface connected to the database logic for taking practice sessions.
+## Planned scope
 
----
+- Database with 10+ related tables
+- Stored procedures choose the next words
+- Test data and speed measurements
+- Simple web interface
+- **Not included:** AI or machine learning, audio, notifications
 
-<!-- 2xl -->
-## Initial User Journeys
+## Initial user journeys
 
-1. **Start Practice:** Learner logs in and starts a session $\rightarrow$ database stored procedure computes priorities and returns the next words.
-2. **Submit Answers:** Learner answers an exercise $\rightarrow$ system logs the result $\rightarrow$ database updates repetition counters and intervals.
-3. **Track Progress:** Learner opens the dashboard $\rightarrow$ database executes queries to show accuracy trends over time.
+1. **Practice:** the learner starts a session, the database picks the words
+2. **Answer:** the system saves the result and updates the priority
+3. **Progress:** the learner sees accuracy over time
+4. **Content:** the administrator adds and edits words
 
----
+## Next steps
 
-<!-- 2xl -->
-## Next Steps
-
-- Finalize the database table structure and relationships.
-- Develop the database stored procedures for word selection.
-- Create sample test data for performance testing.
+- Finalize the table design
+- Write the stored procedures
+- Generate test data for performance tests
