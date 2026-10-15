@@ -13,8 +13,6 @@ Project ID: 2026-LA-05
 ---
 
 
----
-
 ## Problem
 
 - Learners repeat all words equally
