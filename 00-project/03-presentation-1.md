@@ -12,7 +12,6 @@ Project ID: 2026-LA-05
 
 ---
 
-
 ## Problem
 
 - Learners repeat all words equally
@@ -20,10 +19,14 @@ Project ID: 2026-LA-05
 - Hard words are forgotten
 - The system should choose words based on mistakes
 
+---
+
 ## Target users
 
 - **Learner:** wants a personal practice list
 - **Administrator:** manages words, topics, and difficulty
+
+---
 
 ## Planned scope
 
@@ -33,12 +36,16 @@ Project ID: 2026-LA-05
 - Simple web interface
 - **Not included:** AI or machine learning, audio, notifications
 
+---
+
 ## Initial user journeys
 
 1. **Practice:** the learner starts a session, the database picks the words
 2. **Answer:** the system saves the result and updates the priority
 3. **Progress:** the learner sees accuracy over time
 4. **Content:** the administrator adds and edits words
+
+---
 
 ## Next steps
 
