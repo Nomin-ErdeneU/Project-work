@@ -66,7 +66,6 @@ Learner → C# web interface → stored procedures → SQL Server tables
 - **Wrong answer:** errors rise, interval resets to 1 day
 - **Correct answer:** interval doubles, the word waits longer
 - **Long break:** overdue grows, priority grows
-- Example weights, to be tuned on test data
 
 ---
 
