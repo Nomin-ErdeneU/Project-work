@@ -29,6 +29,7 @@ Project ID: 2026-LA-05
 3. **Progress:** accuracy over time and hardest words
 4. **Content:** the administrator adds and edits words
 
+
 **Key requirements:** two selection strategies, 10+ tables in 3NF, every answer recorded, sequence in under 1 second with 50,000+ answers
 
 ---
