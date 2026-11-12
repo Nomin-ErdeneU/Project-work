@@ -31,8 +31,6 @@ Project ID: 2026-LA-05
 
 &nbsp;
 
-&nbsp;
-
 **Key requirements:** two selection strategies, 10+ tables in 3NF, every answer recorded, sequence in under 1 second with 50,000+ answers
 
 ---
