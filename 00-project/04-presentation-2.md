@@ -29,6 +29,9 @@ Project ID: 2026-LA-05
 3. **Progress:** accuracy over time and hardest words
 4. **Content:** the administrator adds and edits words
 
+&nbsp;
+
+&nbsp;
 
 **Key requirements:** two selection strategies, 10+ tables in 3NF, every answer recorded, sequence in under 1 second with 50,000+ answers
 
@@ -60,9 +63,14 @@ Learner → C# web interface → stored procedures → SQL Server tables
 
 `priority = 0.4·errors + 0.3·overdue + 0.2·difficulty + 0.1·newness`
 
-- Wrong answer: errors rise, interval resets to 1 day
-- Correct answer: interval doubles, the word waits longer
-- Long break: overdue grows, priority grows
+- **Wrong answer:** errors rise, interval resets to 1 day
+- **Correct answer:** interval doubles, the word waits longer
+- **Long break:** overdue grows, priority grows
+- Example weights, to be tuned on test data
+
+---
+
+### Priority example
 
 | Word | Errors | Overdue | Difficulty | Newness | Priority |
 | --- | --- | --- | --- | --- | --- |
@@ -70,8 +78,7 @@ Learner → C# web interface → stored procedures → SQL Server tables
 | borrow | 0.50 | 0.50 | 0.60 | 0.33 | **0.50** |
 | apple | 0.00 | 0.19 | 0.20 | 0.17 | **0.11** |
 
-- Wrong: interval resets to 1 day. Correct: interval doubles.
-- Example weights, to be tuned on test data
+**Highest priority comes first:** although, then borrow, then apple
 
 ---
 
@@ -114,5 +121,5 @@ Learner → C# web interface → stored procedures → SQL Server tables
 - **Risk:** slow with large data → measure, add indexes, simplify
 - **Risk:** learner identification without login → simple user selection
 - **Risk:** growing scope → fixed out-of-scope list
-  
+
 **Next:** finalize the tables, write the first procedures
