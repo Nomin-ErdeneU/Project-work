@@ -29,9 +29,7 @@ Project ID: 2026-LA-05
 3. **Progress:** accuracy over time and hardest words
 4. **Content:** the administrator adds and edits words
 
-- Two selection strategies, 10+ related tables in 3NF
-- Every answer recorded: correctness, time, attempts, last practice
-- Practice sequence in under 1 second with 50,000+ answers
+**Key requirements:** two selection strategies, 10+ tables in 3NF, every answer recorded, sequence in under 1 second with 50,000+ answers
 
 ---
 
@@ -71,7 +69,8 @@ Learner → C# web interface → stored procedures → SQL Server tables
 | borrow | 0.50 | 0.50 | 0.60 | 0.33 | **0.50** |
 | apple | 0.00 | 0.19 | 0.20 | 0.17 | **0.11** |
 
-Example values. Weights will be tuned in semester 2.
+- Wrong: interval resets to 1 day. Correct: interval doubles.
+- Example weights, to be tuned on test data
 
 ---
 
@@ -114,4 +113,5 @@ Example values. Weights will be tuned in semester 2.
 - **Risk:** slow with large data → measure, add indexes, simplify
 - **Risk:** learner identification without login → simple user selection
 - **Risk:** growing scope → fixed out-of-scope list
-- **Next:** finalize the tables, write the first procedures, record supervisor feedback
+  
+**Next:** finalize the tables, write the first procedures
